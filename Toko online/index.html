@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <style>
+      .cart-column{display: flex; align-items: center; border-bottom: 1px solid black; margin-right: 1.5em; margin-bottom: 10px; margin-top: 10px;} 
+      .cart-row{display: flex;}
+      .cart-item{width: 45%;}
+      .cart-price{width: 20%; font-size: 1.2em; color: #333;}
+      .cart-quantity{width: 35%;}
+      .cart-item-title{color: #333; margin-left: .5em; font-size: 1.2em;}
+      .cart-item-image{width: 75px; height: auto; border-radius: 10px;}
+      .cart-item-input{height: 34px; width: 50px; border-radius: 5px; border: 1px solid #56ccf2; background-color: #eee; color: #333; padding: 0; text-align: center; margin-right: 25px;}
+    </style>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Christian's</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Produk <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Harga</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- end nav -->
+
+    
+
+    <!-- content -->
+
+    <div class="container pt-5">
+      <div class="row">
+
+        <div class="col-md-4 pt-4">
+
+          <div class="card" style="width: 18rem;">
+            <img src="images/Laravel-best-PHP-Framework.jpg" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Laravel</h5>
+              <span class="shop-item-price"><h3><b>Rp 300000</b></h3></span>
+              <p class="card-text">Belajar asik dengan om-om</p>
+              <button class="btn btn-dark shop-item-button" type="button">Add to cart</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-4 pt-4">
+
+          <div class="card" style="width: 18rem;">
+            <img src="images/node.jpeg" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Node JS</h5>
+              <span class="shop-item-price"><h3><b>Rp 500000</b></h3></span>
+              <p class="card-text">Belajar asik dengan mas tampan</p>
+              <button class="btn btn-dark shop-item-button" type="button">Add to cart</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-4 pt-4">
+          <div class="card" style="width: 18rem;">
+            <img src="images/Pros-and-Cons-of-CodeIgniter-Framework.jpg" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">CI</h5>
+              <span class="shop-item-price"><h3><b>Rp 90000</b></h3></span>
+              <p class="card-text">Belajar asik dengan cici cici lucu</p>
+              <button class="btn btn-dark shop-item-button" type="button">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pt-4">
+          <div class="card" style="width: 18rem;">
+            <img src="images/react.jpg" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">React</h5>
+              <span class="shop-item-price"><h3><b>Rp 120000</b></h3></span>
+              <p class="card-text">Belajar asik dengan ibu-ibu gemes.</p>
+              <button class="btn btn-dark shop-item-button" type="button">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pt-4">
+          <div class="card" style="width: 18rem;">
+            <img src="images/download.jpg" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Marketing</h5>
+              <span class="shop-item-price"><h3><b>Rp 130000</b></h3></span>
+              <p class="card-text">Belajar asik dengan ibu-ibu gemes</p>
+              <button class="btn btn-dark shop-item-button" type="button">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pt-4">
+          <div class="card" style="width: 18rem;">
+            <img src="images/gambar5.jpg" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Instagram promote</h5>
+              <span class="shop-item-price"><h3><b>Rp 900000</b></h3></span>
+              <p class="card-text">Belajar asik dengan selebgram onlyfans</p>
+              <button class="btn btn-dark shop-item-button" type="button">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- end content -->
+    
+    <!-- cart -->
+    <div class="container">
+      <div class="row">
+        <table class="table table-hover">
+          <thead>
+            <tr class="cart-row">
+                <th scope="col" class="cart-item">ITEM</th>
+                <th scope="col" class="cart-price">PRICE</th>
+                <th scope="col" class="cart-quantity">Qty</th>
+            </tr>
+          </thead>
+          <tbody class="cart-items">
+              <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">Rp </span>
+              </div>
+          </tbody>
+        </table>
+        <div class="flex-container">
+          <button class="btn btn-dark btn-purchase">Buy</button>
+        </div>
+  
+      </div>
+    </div>
+    <!-- endcart -->
+
+    <!-- footer -->
+    <div id="footer" class="bg-dark overflow-hidden">
+      <div class="container">
+          <p class="text-white text-center">@Copyright Christian's</p>
+      </div>
+    </div>
+    <!-- end footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="store.js"></script>
+  </body>
+</html>
